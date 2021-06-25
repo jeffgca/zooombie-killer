@@ -1,8 +1,9 @@
 # Zoombie Killer, qu'est-ce que c'est?
 
-![](/source/zoombie.jpg)
 
 > Rationale: if you spend all day on zoom calls, you will slowly accrue a bunch of tabs all pointed at the Zoom,us postattendee page. This extension kills these tabs in your browser with extreme prejudice.
+
+![](/source/zoombie.jpg)
 
 ### reference browser-extension-template
 
