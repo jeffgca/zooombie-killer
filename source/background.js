@@ -1,2 +1,12 @@
-// eslint-disable-next-line import/no-unassigned-import
-import './options-storage.js';
+function listener(details) {
+  console.log('closing this zoombie', details);
+  browser.tabs.remove(details.tabId);
+} 
+
+browser.webNavigation.onDOMContentLoaded.addListener(
+  listener,
+  {url: [
+    { hostSuffix: "zoom.us" },
+    { pathContains: "/postattendee?" }
+  ]}
+);

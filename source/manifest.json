@@ -15,14 +15,10 @@
 		"128": "icon.png"
 	},
 	"permissions": [
-		"storage"
+		"webNavigation", "tabs"
 	],
-	"options_ui": {
-		"chrome_style": true,
-		"page": "options.html"
-	},
 	"background": {
-		"persistent": false,
+		"persistent": true,
 		"scripts": [
 			"background.js"
 		]
