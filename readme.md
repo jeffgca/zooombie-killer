@@ -8,6 +8,6 @@
 
  - [x] Add Zooombie toolbar icon
   - [x] update count every time we hit a zoom url
-  - [] persist storage of total count
+  - [x] persist storage of total count
  - [] Embedded home page with data?
 
